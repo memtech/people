@@ -3,15 +3,15 @@ $(function () {
 
   var map;
   var infowindow;
-  var loadDataLayer = function(data, z_index, clickInfo, style_attribute, style_map) {
+  var loadDataLayer = function(data, z_index, click_content_fn) {
     var markers = [];
     var clickable = false;
-    if (clickInfo !== null) {
+    if (click_content_fn !== null) {
       clickable = true;
     }
 
     var showInfoWindow = function() {
-      var content = clickInfo(this.data);
+      var content = click_content_fn(this.data);
       infowindow.close();
       infowindow.setContent(content);
       infowindow.open(map, this); 
@@ -25,23 +25,6 @@ $(function () {
         clickable: clickable
       });
       
-      if (style_attribute && style_map) {
-        if (rec[style_attribute]) {
-          var style_val = rec[style_attribute];
-          if (style_map[style_val]) {
-            if (style_map.size) {
-              marker.setIcon({
-                url: style_map[style_val],
-                scaledSize: new google.maps.Size(style_map.size, style_map.size), // scaled size
-                origin: new google.maps.Point(0,0), // origin
-                anchor: new google.maps.Point(style_map.anchor[0],style_map.anchor[1]) 
-              });
-            } else {
-              marker.setIcon(style_map[style_val]);
-            }
-          }
-        }
-      }    
       marker.data = rec;
 
       if (clickable) {
