@@ -145,6 +145,17 @@ $(function () {
              "<span>" + data.origin + "</span><br>";
     });
     memtech.show();
+
+    /* uncomment if you want to show heatmap
+    var heatmap_data = jQuery.map(locations, function(record) {
+      return new google.maps.LatLng(record.latitude, record.longitude);
+    });
+    var heatmap = new google.maps.visualization.HeatmapLayer({
+      data: heatmap_data
+    });
+    heatmap.setMap(map);
+    */
+
   };
   google.maps.event.addDomListener(window, 'load', initMap);
 });

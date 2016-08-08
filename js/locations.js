@@ -1,3 +1,3 @@
 var locations = [
-  { name: 'Wayne Bills', origin: 'Northaven, TN', latitude: 35.26507, longitude: -90.04078 }
+  { name: 'wayne bills', origin: 'northaven, tn', latitude: 35.26507, longitude: -90.04078 }
 ];
