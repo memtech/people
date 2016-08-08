@@ -1,6 +1,6 @@
 # memtech people
 
-Let's plot a map showing where we call come from!
+Let's plot a map showing where we call come from! [Check it Out](memtech_people.geojson)!
 
 ## How?
 
