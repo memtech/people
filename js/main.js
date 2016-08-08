@@ -140,7 +140,10 @@ $(function () {
       marker.setVisible(true);
     };
    
-    var memtech = loadDataLayer(locations);
+    var memtech = loadDataLayer(locations, 999, function(data) {
+      return "<span>" + data.name + "</span><br>" +
+             "<span>" + data.origin + "</span><br>";
+    });
     memtech.show();
   };
   google.maps.event.addDomListener(window, 'load', initMap);
