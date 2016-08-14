@@ -1,6 +1,6 @@
 # memtech people
 
-Let's plot a map showing where we call come from! [Check it Out](index.html)!
+Let's plot a map showing where we call come from! [Check it Out](https://memtech.github.io/people/)!
 
 ## How can I contribute?
 
