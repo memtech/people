@@ -1,42 +1,27 @@
 # memtech people
 
-Let's plot a map showing where we call come from! [Check it Out](memtech_people.geojson)!
+Let's plot a map showing where we call come from! [Check it Out](index.html)!
 
-## How?
+## How can I contribute?
 
 1. Fork this repo.
-2. Edit the `memtech_people.geojson` file, copy one of the _Feature_ objects,
-   and change the `coordinates` to your hometown (you can look these up on
-   google maps or [geojson.io](http://geojson.io).
-3. Save your copy, push back up to your fork and send us a Pull Request.
+2. Edit the `js/locations.js` file, and add an object to the `locations` array.
+   You can look up your hometown's geographic coordinates on [Google Maps](https://www.google.com/maps/).
+3. Save your edits, and send us a Pull Request!
 
-## The feature object
+### The locations array, what?
 
-...will look something like this:
+The `js/locations.js` file shoudl look something like this:
 
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#ff2600",
-        "marker-size": "medium",
-        "marker-symbol": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.33113479614258,
-          35.611953036068876
-        ]
-      }
-    }
+    var locations = [
+      { name: 'wayne bills', origin: 'northaven, tn', latitude: 35.26507, longitude: -90.04078 },
+      { name: 'brad montgomery', origin: 'lepanto, ar', latitude: 35.61046, longitude: -90.33114 },
+      { name: 'stephen bramlett', origin: 'memphis, tn', latitude: 35.61195, longitude: -90.33113 }
+    ]
 
-The part you want to change is the `coordinates`:
+Add a new entry that looks something like this (just copy one of the existing
+entries and edit the values accordingly).
 
-        "coordinates": [
-          -90.33113479614258,
-          35.611953036068876
-        ]
+      { name: 'your name', origin: 'your town, state', latitude: 35.1234, longitude: -90.1234 },
 
-Just change those two numbers. Once you push taht back up to your repo,
-click on the file and github should render a map. If you see a marker on
-your hometown, it worked!
+That's it!
