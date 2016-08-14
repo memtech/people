@@ -11,7 +11,7 @@ Let's plot a map showing where we call come from! [Check it Out](https://memtech
 
 ### The locations array, what?
 
-The `js/locations.js` file shoudl look something like this:
+The `js/locations.js` file should look something like this:
 
     var locations = [
       { name: 'wayne bills', origin: 'northaven, tn', latitude: 35.26507, longitude: -90.04078 },
