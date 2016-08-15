@@ -14,8 +14,8 @@ $(function () {
       var content = click_content_fn(this.data);
       infowindow.close();
       infowindow.setContent(content);
-      infowindow.open(map, this); 
-    }; 
+      infowindow.open(map, this);
+    };
 
     for (var i in data) {
       var rec = data[i];
@@ -24,16 +24,16 @@ $(function () {
         zIndex: z_index,
         clickable: clickable
       });
-      
+
       marker.data = rec;
 
       if (clickable) {
-        marker.addListener('click', showInfoWindow); 
+        marker.addListener('click', showInfoWindow);
       }
 
       markers.push(marker);
     }
-    
+
     var len = markers.length;
     var setMap = function(m, filterFn) {
       for (var i = 0; i < len; i++) {
@@ -44,7 +44,7 @@ $(function () {
             markers[i].setMap(null);
           }
         } else {
-          markers[i].setMap(m); 
+          markers[i].setMap(m);
         }
       }
     };
@@ -66,14 +66,14 @@ $(function () {
     var mapCanvas = document.getElementById('map');
     var mapOptions = {
       center: new google.maps.LatLng(35.16899709632771, -89.85338676720858),
-      zoom: 10,
+      zoom: 6,
       panControl: false,
       streetViewControl: false,
       mapTypeControl: true,
       mapTypeControlOptions: {
         style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
         position: google.maps.ControlPosition.RIGHT_TOP,
-        mapTypeIds: [ 
+        mapTypeIds: [
           google.maps.MapTypeId.ROADMAP,
           google.maps.MapTypeId.HYBRID,
           'style_light'
@@ -102,7 +102,7 @@ $(function () {
           address: input.value
         }, function(result) {
           if (result.length > 0) {
-            search_result(result[0]);        
+            search_result(result[0]);
           } else {
             alert("No results found.");
           }
@@ -117,12 +117,12 @@ $(function () {
         map.fitBounds(result.geometry.viewport);
       } else {
         map.setCenter(result.geometry.location);
-        map.setZoom(17); 
+        map.setZoom(17);
       }
       marker.setPosition(result.geometry.location);
       marker.setVisible(true);
     };
-   
+
     var memtech = loadDataLayer(locations, 999, function(data) {
       return "<span>" + data.name + "</span><br>" +
              "<span>" + data.origin + "</span><br>";
