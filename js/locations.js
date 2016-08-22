@@ -9,5 +9,5 @@ var locations = [
   { name: 'David Hiltenbrand', origin: 'Pine Bluff, AR', latitude: 34.231984, longitude: -92.135550 },
   { name: 'Ismael Alonso', origin: 'Valladolid, ES-VA', latitude: 41.6519094, longitude: -4.730486 },
   { name: 'Collin Barrett', origin: 'Kalamazoo, MI', latitude: 42.271161, longitude: -85.660178 }
-{ name: 'Claudio Donndelinger', origin: 'Tucson, AZ', latitude: 32.2274179, longitude: -110.9604492 }
+  { name: 'Claudio Donndelinger', origin: 'Tucson, AZ', latitude: 32.2274179, longitude: -110.9604492 }
 ];
