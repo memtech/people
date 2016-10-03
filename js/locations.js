@@ -10,6 +10,6 @@ var locations = [
   { name: 'Ismael Alonso', origin: 'Valladolid, ES-VA', latitude: 41.6519094, longitude: -4.730486 },
   { name: 'Collin Barrett', origin: 'Kalamazoo, MI', latitude: 42.271161, longitude: -85.660178 },
   { name: 'Claudio Donndelinger', origin: 'Tucson, AZ', latitude: 32.2274179, longitude: -110.9604492 },
-  { name: 'Jason Myers', origin: 'Sacramento, CA', latitude: 35.143839,longitude: -89.944866 },
+  { name: 'Jason Myers', origin: 'Sacramento, CA', latitude: 35.143839,longitude: -89.944866, slack_handle: "syliddar"  },
   { name: 'Daniel Soskel', origin: 'Salt Lake City, UT', latitude: 40.7762692, longitude: -112.2006695 }
 ];
