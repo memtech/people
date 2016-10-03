@@ -125,7 +125,8 @@ $(function () {
 
     var memtech = loadDataLayer(locations, 999, function(data) {
       return "<span>" + data.name + "</span><br>" +
-             "<span>" + data.origin + "</span><br>";
+             "<span>" + data.origin + "</span><br>" +
+             "<span>" + data.slack_handle || "??" + " on MTF Slack</span><br>";
     });
     memtech.show();
 
