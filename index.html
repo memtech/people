@@ -11,7 +11,15 @@
     <body>
         <div class="container-fluid">
             <div id="map_container">
-              <input id="pac-input" class="controls" type="text" placeholder="Enter a location">
+              <ul id="control_list" class="list-group">
+                <li>
+                  <input id="pac-input" class="controls" type="text" placeholder="Enter a location">
+                </li>
+                <li>
+                  <label><input id="poi_chk" type="checkbox" checked>Show Points</label>
+                  <label><input id="heatmap_chk" type="checkbox" >Show Heatmap</label>
+                </li>
+              </ul>
               <div id="map"></div>
             </div>
         </div>
@@ -28,4 +36,5 @@
         <script src="js/main.js"></script>
         </script>
     </body>
+
 </html>
