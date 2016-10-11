@@ -1,4 +1,5 @@
 var locations = [
+  { name: 'Tim Brownawell', origin: 'Fulton, MO', latitude: 38.86517, longitude: -91.98643, slack_handle: "tbrownaw" },
   { name: 'wayne bills', origin: 'northaven, tn', latitude: 35.26507, longitude: -90.04078 },
   { name: 'brad montgomery', origin: 'lepanto, ar', latitude: 35.61046, longitude: -90.33114, slack_handle: "bkmontgomery"},
   { name: 'Stephen Bramlett', origin: 'memphis, tn', latitude: 35.2243923520236, longitude: -90.00089585781097, slack_handle: "sbramlett"  },
