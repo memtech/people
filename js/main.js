@@ -130,10 +130,20 @@ $(function () {
 
       return "??";
     };
+    
+        
+    var company = function(user) {
+      if(user.company) {
+        return user.company;
+      }
+
+      return "??";
+    };
 
     var memtech = loadDataLayer(locations, 999, function(data) {
       return "<span>" + data.name + "</span><br>" +
              "<span>" + data.origin + "</span><br>" +
+             "<span>" + company(data) + "</span><br>" +
              "<span>" + slackHandle(data) + " on MTF Slack</span><br>";
     });
     memtech.show();
