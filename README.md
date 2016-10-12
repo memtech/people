@@ -21,9 +21,9 @@ The [`js/locations.js`](js/locations.js) file should look something like this:
 
 ```js
     var locations = [
-      { name: 'wayne bills', origin: 'northaven, tn', latitude: 35.26507, longitude: -90.04078 },
-      { name: 'brad montgomery', origin: 'lepanto, ar', latitude: 35.61046, longitude: -90.33114 },
-      { name: 'stephen bramlett', origin: 'memphis, tn', latitude: 35.61195, longitude: -90.33113 }
+      { name: 'wayne bills', origin: 'northaven, tn', latitude: 35.26507, longitude: -90.04078, company: '', slack_handle: 'wbills' },
+      { name: 'Brad Montgomery', origin: 'Lepanto, AR', latitude: 35.61046, longitude: -90.33114, company: "Tennessee Data Commons", slack_handle: "bkmontgomery" },
+      { name: 'Stephen Bramlett', origin: 'memphis, tn', latitude: 35.2243923520236, longitude: -90.00089585781097, company: 'Semmes Murphey Clinic', slack_handle: "sbramlett" },
     ]
 ```
 
@@ -31,7 +31,7 @@ Add a new entry that looks something like this (just copy one of the existing
 entries and edit the values accordingly).
 
 ```js
-      { name: 'your name', origin: 'your town, state', latitude: 35.1234, longitude: -90.1234 },
+      { name: 'your name', origin: 'your town, state', latitude: 35.1234, longitude: -90.1234, company: 'your company', slack_handle: 'your slack handle' },
 ```
 
 That's it!
