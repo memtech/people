@@ -15,5 +15,5 @@ var locations = [
   { name: 'Daniel Soskel', origin: 'Salt Lake City, UT', latitude: 40.7762692, longitude: -112.2006695, slack_handle: "meltheous" },
   { name: 'Mike Cochran', origin: 'Memphis, TN', latitude: 35.15497509873826, longitude: -90.01109898090363, slack_handle: 'vongrippen' },
   { name: 'Forrest Williams', origin: 'Memphis, TN', latitude: 35.036800, longitude: -89.823446, slack_handle: 'serroft' },
-  { name: 'George Spake', origin: 'Memphis, TN', latitude: 35.1182222, longitude: -90.0053115, slack_handle: 'gpspake' }
+  { name: 'George Spake', origin: 'Memphis, TN', latitude: 35.1182222, longitude: -90.0053115, company: 'UTHSC', slack_handle: 'gpspake' }
 ];
