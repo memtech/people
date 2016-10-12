@@ -65,8 +65,8 @@ $(function () {
   var initMap = function() {
     var mapCanvas = document.getElementById('map');
     var mapOptions = {
-      center: new google.maps.LatLng(35.16899709632771, -89.85338676720858),
-      zoom: 6,
+      center: new google.maps.LatLng(38.555474567327764, -95.66499999999996),
+      zoom: 5,
       panControl: false,
       streetViewControl: false,
       mapTypeControl: true,
@@ -85,9 +85,10 @@ $(function () {
     map.mapTypes.set('style_light', style);
     map.setMapTypeId('style_light');
 
-    var input = /** @type {!HTMLInputElement} */(document.getElementById('pac-input'));
-    map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+    var control_list = document.getElementById("control_list");
+    map.controls[google.maps.ControlPosition.TOP_LEFT].push(control_list);
 
+    var input = /** @type {!HTMLInputElement} */(document.getElementById('pac-input'));
     var autocomplete = new google.maps.places.Autocomplete(input);
             autocomplete.bindTo('bounds', map);
 
@@ -148,16 +149,28 @@ $(function () {
     });
     memtech.show();
 
-    /* uncomment if you want to show heatmap
     var heatmap_data = jQuery.map(locations, function(record) {
       return new google.maps.LatLng(record.latitude, record.longitude);
     });
     var heatmap = new google.maps.visualization.HeatmapLayer({
       data: heatmap_data
     });
-    heatmap.setMap(map);
-    */
 
+    jQuery("#poi_chk").click(function() {
+      if (jQuery(this).is(':checked')) {
+        memtech.show();
+      } else {
+        memtech.hide();
+      }
+    });
+
+    jQuery("#heatmap_chk").click(function() {
+      if (jQuery(this).is(':checked')) {
+        heatmap.setMap(map);
+      } else {
+        heatmap.setMap(null);
+      }
+    });
   };
   google.maps.event.addDomListener(window, 'load', initMap);
 });
