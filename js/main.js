@@ -124,28 +124,11 @@ $(function () {
       marker.setVisible(true);
     };
 
-    var slackHandle = function(user) {
-      if(user.slack_handle) {
-        return user.slack_handle;
-      }
-
-      return "??";
-    };
-    
-        
-    var company = function(user) {
-      if(user.company) {
-        return user.company;
-      }
-
-      return "??";
-    };
-
     var memtech = loadDataLayer(locations, 999, function(data) {
       return "<span>" + data.name + "</span><br>" +
              "<span>" + data.origin + "</span><br>" +
-             "<span>" + company(data) + "</span><br>" +
-             "<span>" + slackHandle(data) + " on MTF Slack</span><br>";
+             (data.company !== undefined ? "<span>" + data.company + "</span><br>" : "") +
+             (data.slack_handle !== undefined ? "<span>" + data.slack_handle + " on MTF Slack</span><br>" : "");
     });
     memtech.show();
 
