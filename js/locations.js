@@ -1,6 +1,6 @@
 var locations = [
   { name: 'Tim Brownawell', origin: 'Fulton, MO', latitude: 38.86517, longitude: -91.98643, slack_handle: "tbrownaw" },
-  { name: 'wayne bills', origin: 'northaven, tn', latitude: 35.26507, longitude: -90.04078 },
+  { name: 'Wayne Bills', origin: 'Memphis, TN', latitude: 35.26507, longitude: -90.04078, company: 'Mosaik', slack_handle: 'wbills' },
   { name: 'Brad Montgomery', origin: 'Lepanto, AR', latitude: 35.61046, longitude: -90.33114, company: "Tennessee Data Commons", slack_handle: "bkmontgomery"},
   { name: 'Stephen Bramlett', origin: 'memphis, tn', latitude: 35.2243923520236, longitude: -90.00089585781097, company: 'Semmes Murphey Clinic', slack_handle: "sbramlett"  },
   { name: 'Eric Terpstra', origin: 'Kellogg, IA', latitude: 41.776711, longitude:-92.964886, slack_handle: "eterps" },
