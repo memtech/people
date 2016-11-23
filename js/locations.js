@@ -17,5 +17,6 @@ var locations = [
   { name: 'Forrest Williams', origin: 'Memphis, TN', latitude: 35.036800, longitude: -89.823446, company: "Mosaik", slack_handle: 'serroft' },
   { name: 'George Spake', origin: 'Memphis, TN', latitude: 35.1182222, longitude: -90.0053115, company: 'UTHSC', slack_handle: 'gpspake' },
   { name: 'Tony Colston', origin: 'Collierville, TN', latitude: 35.075099, longitude: -89.667718, slack_handle: 'tony' },
-  { name: 'Ben Robin', origin: 'Bartlesville, OK', latitude: 36.728010, longitude: -95.935164, slack_handle: 'benjaminjrobin' }
+  { name: 'Ben Robin', origin: 'Bartlesville, OK', latitude: 36.728010, longitude: -95.935164, slack_handle: 'benjaminjrobin' },
+  { name: 'David Mohundro', origin: 'Bonham, TX', latitude: 33.5939801, longitude: -96.2210445, company: 'Clear Function', slack_handle: 'drmohundro' }
 ];
