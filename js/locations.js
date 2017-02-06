@@ -13,7 +13,7 @@ var locations = [
   { name: 'Claudio Donndelinger', origin: 'Tucson, AZ', latitude: 32.2274179, longitude: -110.9604492 },
   { name: 'Jason Myers', origin: 'Sacramento, CA', latitude: 38.601524,longitude: -121.392555,company: 'Shelby Systems', slack_handle: "syliddar"  },
   { name: 'Daniel Soskel', origin: 'Salt Lake City, UT', latitude: 40.7762692, longitude: -112.2006695, slack_handle: "meltheous", company: "International Paper"},
-  { name: 'Mike Cochran', origin: 'Memphis, TN', latitude: 35.15497509873826, longitude: -90.01109898090363, slack_handle: 'vongrippen', company: "FSG Investment Management, LLC" },
+  { name: 'Mike Cochran', origin: 'Memphis, TN', latitude: 35.15497509873826, longitude: -90.01109898090363, slack_handle: 'vongrippen', company: "Telarray" },
   { name: 'Forrest Williams', origin: 'Memphis, TN', latitude: 35.036800, longitude: -89.823446, company: "Mosaik", slack_handle: 'serroft' },
   { name: 'George Spake', origin: 'Memphis, TN', latitude: 35.1182222, longitude: -90.0053115, company: 'UTHSC', slack_handle: 'gpspake' },
   { name: 'Tony Colston', origin: 'Collierville, TN', latitude: 35.075099, longitude: -89.667718, slack_handle: 'tony' },
