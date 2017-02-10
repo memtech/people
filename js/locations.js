@@ -19,5 +19,6 @@ var locations = [
   { name: 'Tony Colston', origin: 'Collierville, TN', latitude: 35.075099, longitude: -89.667718, slack_handle: 'tony' },
   { name: 'Ben Robin', origin: 'Bartlesville, OK', latitude: 36.728010, longitude: -95.935164, slack_handle: 'benjaminjrobin' },
   { name: 'David Mohundro', origin: 'Bonham, TX', latitude: 33.5939801, longitude: -96.2210445, company: 'Clear Function', slack_handle: 'drmohundro' },
-  { name: 'Matt McCullar', origin: 'Medford, Oregon', latitude: 35.1187, longitude: -89.9381, slack_handle: 'mattm' }
+  { name: 'Matt McCullar', origin: 'Medford, Oregon', latitude: 35.1187, longitude: -89.9381, slack_handle: 'mattm' },
+  { name: 'Michael Johnsey', origin: 'Southaven, MS', latitude: 34.9332, longitude: -89.9367, company: 'Mosaik', slack_handle:'mjohnsey' }
 ];
