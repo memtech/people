@@ -27,5 +27,6 @@ var locations = [
   { name: 'Cameron Roe', origin: 'Memphis, TN', latitude: 35.1545029, longitude: -89.8414891, company: 'CrossBrowserTesting', slack_handle: 'cameronroe'},
   { name: 'Matthew Bledsoe', origin: 'Memphis, TN', latitude: 35.110297, longitude: -89.914127, company: 'Quire Data', slack_handle: 'mjb'},
   { name: 'Chris House', origin: 'Green Bay, WI', latitude: 44.5228598, longitude: -88.130578, company: 'LDC', slack_handle: 'chris'},
-  { name: 'Greg Blumenthal', origin: 'Apodaca, NL, MX', latitude: 25.7257755, longitude: -100.1759286, company: 'GMBS Consulting', slack_handle: 'gmbs'}
-  ];
+  { name: 'Greg Blumenthal', origin: 'Apodaca, NL, MX', latitude: 25.7257755, longitude: -100.1759286, company: 'GMBS Consulting', slack_handle: 'gmbs'},
+  { name: 'Xavier Tilley', origin: 'Booneville, MS', latitude: 34.856766,ongitude: -89.6450667, slack_handle: 'chili-tilley'}
+];
