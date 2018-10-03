@@ -22,5 +22,9 @@ var locations = [
   { name: 'Matt McCullar', origin: 'Medford, Oregon', latitude: 35.1187, longitude: -89.9381, slack_handle: 'mattm' },
   { name: 'Michael Johnsey', origin: 'Southaven, MS', latitude: 34.9332, longitude: -89.9367, company: 'Mosaik', slack_handle:'mjohnsey' },
   { name: 'Ed Anderson', origin: 'Seattle, WA', latitude: 47.620422, longitude: -122.349358, company: '', slack_handle:'ed' },
-  { name: 'Harold Schreckengost', origin: 'Hernando, MS', latitude: 34.8435569, longitude:-89.996908, company: 'ER2', slack_handle: 'hmschreck'}
+  { name: 'Harold Schreckengost', origin: 'Hernando, MS', latitude: 34.8435569, longitude:-89.996908, company: 'ER2', slack_handle: 'hmschreck'},
+  { name: 'Keaton Burleson', origin: 'Denton, TX', latitude: 33.240420, longitude: -97.143596, company: 'ER2', slack_handle: '128keaton'},
+  { name: 'Cameron Roe', origin: 'Memphis, TN', latitude: 35.1545029, longitude: -89.8414891, company: 'CrossBrowserTesting', slack_handle: 'cameronroe'},
+  { name: 'Matthew Bledsoe', origin: 'Memphis, TN', latitude: 35.110297, longitude: -89.914127, company: 'Quire Data', slack_handle: 'mjb'},
+  { name: 'Chris House', origin: 'Green Bay, WI', latitude: 44.5228598, longitude: -88.130578, company: 'LDC', slack_handle: 'chris'}
   ];
