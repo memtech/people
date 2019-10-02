@@ -1,4 +1,4 @@
-mvar locations = [
+var locations = [
   { name: 'Tim Brownawell', origin: 'Fulton, MO', latitude: 38.86517, longitude: -91.98643, slack_handle: "tbrownaw" },
   { name: 'Wayne Bills', origin: 'Memphis, TN', latitude: 35.26507, longitude: -90.04078, company: 'Mosaik', slack_handle: 'wbills' },
   { name: 'Brad Montgomery', origin: 'Lepanto, AR', latitude: 35.61046, longitude: -90.33114, company: "Preteckt", slack_handle: "bkmontgomery"},
@@ -28,5 +28,6 @@ mvar locations = [
   { name: 'Matthew Bledsoe', origin: 'Memphis, TN', latitude: 35.110297, longitude: -89.914127, company: 'Quire Data', slack_handle: 'mjb'},
   { name: 'Chris House', origin: 'Green Bay, WI', latitude: 44.5228598, longitude: -88.130578, company: 'LDC', slack_handle: 'chris'},
   { name: 'Greg Blumenthal', origin: 'Germantown, TN', latitude: 35.11097, longitude: -89.8292189, company: 'GMBS Consulting', slack_handle: 'gmbs'},
-  { name: 'Xavier Tilley', origin: 'Booneville, MS', latitude: 34.856766, longitude: -89.6450667, slack_handle: 'chili-tilley'}
+  { name: 'Xavier Tilley', origin: 'Booneville, MS', latitude: 34.856766, longitude: -89.6450667, slack_handle: 'chili-tilley'},
+  { name: 'Nick Bouldien', origin: 'Memphis, TN', latitude: 35.1495, longitude: -90.04090, company: '', slack_handle: 'nickbouldien' }
 ];
